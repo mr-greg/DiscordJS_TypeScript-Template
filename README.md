@@ -11,7 +11,7 @@ This is a simple TypeScript template for the [discordjs library](https://discord
 
 ## Installation
 
-First, clone this repository:
+First, clone this repository, then :
 
 ```
 cd DiscordJS_TypeScript-Template
