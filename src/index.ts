@@ -53,9 +53,6 @@ for (const file of eventFiles) {
     // Import the "event" object from the event file
     const { event }: { event: BotEvent } = require(filePath);
 
-    // Display a log message with the event name
-    console.log(`Event log = ${event}`);
-    
     // Associate the event execution with the Discord client's event
     if (event.once) {
         client.once(event.name, (...args) => event.execute(...args));
