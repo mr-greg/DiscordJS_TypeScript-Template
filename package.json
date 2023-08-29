@@ -2,7 +2,7 @@
   "name": "paul",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "start": "node dist/src/index.js",
     "deploycommands": "node dist/src/deploy-commands.js",
